@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "No ads",
+    "description": "Aplicativo para reduzir Ads em sites",
+    "version": "0.0.1",
+    "action": {
+        "default_title": "No ADS"
+    },
+    "permissions": ["tabs"],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    }
+}
